@@ -4,7 +4,14 @@
 	<title></title>
 </head>
 <body>
-<header></header>
+<header>
+	<nav class="menu">
+			<a href="#incio">Inicio</a>
+			<a href="#institucion">Institución</a>
+			<a href="#cursos">Cursos</a>
+			<a href="#preinscripcion">Pre inscripción</a>
+		</nav>
+</header>
 <main>
 	<h1>DETALLE DE LOS CURSOS</h1>
 <h2>•	Programador Full Stack</h2>
