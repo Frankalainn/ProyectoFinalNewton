@@ -21,8 +21,7 @@
 			<div class="Barra2">
 				<nav>
 					 <a href="#Hoteles"><img src="C:/Users/Franco/Desktop/ProyectoFinal/egg-fill.svg" alt="insertar SVG con la etiqueta image">Hoteles</a>
-			         <a href="#Restaurantes"><img src="C:/Users/Franco/Desktop/ProyectoFinal/egg-fill.svg" alt="insertar SVG con la etiqueta image">Restaurantes</a>
-			         <a href="#Bodegas"><img src="C:/Users/Franco/Desktop/ProyectoFinal/egg-fill.svg" alt="insertar SVG con la etiqueta image">Bodegas</a>
+			        <div class="Seis"><a href="#Bodegas"><img src="C:/Users/Franco/Desktop/ProyectoFinal/egg-fill.svg">Bodegas</a></div>
                 </nav>
             </div>
         </div>
