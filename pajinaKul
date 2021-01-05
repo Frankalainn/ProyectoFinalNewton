@@ -8,6 +8,7 @@
 </head>
 
 <body>
+	<!--Barra de navegación-->
 	<header>
 		<div class="Barra">
 			<div class="Barra1">
@@ -17,17 +18,38 @@
 			        <div class="Tres"><a href="#Vendimia"><img src="C:/Users/Franco/Desktop/ProyectoFinal/egg-fill.svg">Vendimia</a></div>
 			     </nav>
 			</div>
-
+                                   <img src="C:/Users/Franco/Desktop/ProyectoFinal/BPM.png">
 			<div class="Barra2">
 				<nav>
-					 <a href="#Hoteles"><img src="C:/Users/Franco/Desktop/ProyectoFinal/egg-fill.svg" alt="insertar SVG con la etiqueta image">Hoteles</a>
+					<div class="Cuatro"><a href="#Hoteles"><img src="C:/Users/Franco/Desktop/ProyectoFinal/egg-fill.svg">Hoteles</a></div>
+			        <div class="Cinco"><a href="#Restaurantes"><img src="C:/Users/Franco/Desktop/ProyectoFinal/egg-fill.svg">Restaurantes</a></div>
 			        <div class="Seis"><a href="#Bodegas"><img src="C:/Users/Franco/Desktop/ProyectoFinal/egg-fill.svg">Bodegas</a></div>
                 </nav>
             </div>
         </div>
 	</header>
-	<main></main>
-	<footer></footer>
+
+	<!--Secciones-->
+	<main>
+		<div class="Todo">
+			<section id="mapa"><!--Google maps-->
+				<h1>Mapas</h1>
+			</section>
+			<section id="SeccionJoven"><!--Sección Para joven-->
+				<h1>Joven</h1>
+			</section>
+			<section id="TurismoLgbt+"><!--Sección Para tombinos-->
+				<h1>Lgbt+</h1>
+			</section>
+			<section id="SecciónMujeres"><!--Sección Mujeres-->
+				<h1>Mujeres</h1>
+			</section>
+		</div>
+
+	</main>
+	<footer>
+		Derechos para lo pibe
+	</footer>
 
 
 </body>
