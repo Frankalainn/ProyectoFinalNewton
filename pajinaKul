@@ -1,25 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
 	<meta charset="utf-8">
 	<title>Turismo de la provincia de Mendoza</title>
 	<link rel="stylesheet" type="text/css" href="">
-	<link rel="shortcut icon" href="ProyectoFinal/BPM.png">
+	<link rel="shortcut icon" href="C:/Users/Franco/Desktop/ProyectoFinal/BPM.png">
 	<style type="text/css">
 
-		/* *{
-			box-sizing: border-box;
+		 *{
 		    margin: 0;
 			padding: 0;
+            box-sizing: border-box;
 		    }
 
 		    body{
 		   	width: 1366px;
 		    }
 
+           .Barra{
+            display: flex;
+            width: auto;
+            margin-left: 180px;
+            height: 120px;
+
+		    }
 		    .Barra1{
-			border: 10px solid red;
-			width: 300px;
+			border: 10px solid #33F0FF;
+			width: auto;
+            background-color: blue;
+			
+		    }
+             
+             .Barra2{
+			border: 10px solid #33F0FF;
+			width: auto;
+            background-color: blue;
 			
 		    }
 
@@ -28,27 +43,27 @@
 			padding-left: 15px;
 		    }
 
-		    .Barra{
-			display: flex;
-
-		    }
+		   
 		    nav a img{
 
-			display: block;
-			margin-left: auto;
-			margin-right: auto;
+			display: inline-block;
+            width: 100px;
 	
 			}
-
-			.Uno, .Dos, .Tres{
-				
-			display: inline-block;
-			} */
+           
+        img{
+              display: block; 
+              margin-left: 0; 
+              margin-right: 0; 
+     
+            
+        }
 		   
 		   .slider{
 		   	width: 95%;
-		   	margin: auto;
+		   	margin-left: auto;
 		   	overflow: hidden;
+            
 		   }
 
 		   .slider img{
@@ -80,47 +95,42 @@
 
 		   }
 
-		   
+      
 	</style>
-	
 </head>
 
 <body>
-	<!--Barra de navegación-->
 	<header>
 		<div class="Barra">
 			<div class="Barra1">
 		         <nav>
-		         	<div class="Uno"><a href="#Comidas"><img src="C:/Users/Franco/Desktop/ProyectoFinal/egg-fill.svg">Comidas</a></div>
-			        <div class="Dos"><a href="#Turismo"><img src="C:/Users/Franco/Desktop/ProyectoFinal/egg-fill.svg">Turismo</a></div>
-			        <div class="Tres"><a href="#Vendimia"><img src="C:/Users/Franco/Desktop/ProyectoFinal/egg-fill.svg">Vendimia</a></div>
+		         	<a href="#Comidas"><img src="C:/Users/Franco/Desktop/ProyectoFinal/comidas.jpeg"></a>
+			        <a href="#Turismo"><img src="C:/Users/Franco/Desktop/ProyectoFinal/turismo.jpeg"></a>
+			        <a href="#Vendimia"><img src="C:/Users/Franco/Desktop/ProyectoFinal/vendimia.jpeg"></a>
 			     </nav>
 			</div>
-                                   <img src="C:/Users/Franco/Desktop/ProyectoFinal/BPM.png">
+<img class="escudomedio" src="C:/Users/Franco/Desktop/ProyectoFinal/BPM.png">
 			<div class="Barra2">
 				<nav>
-					<div class="Cuatro"><a href="#Hoteles"><img src="C:/Users/Franco/Desktop/ProyectoFinal/egg-fill.svg">Hoteles</a></div>
-			        <div class="Cinco"><a href="#Restaurantes"><img src="C:/Users/Franco/Desktop/ProyectoFinal/egg-fill.svg">Restaurantes</a></div>
-			        <div class="Seis"><a href="#Bodegas"><img src="C:/Users/Franco/Desktop/ProyectoFinal/egg-fill.svg">Bodegas</a></div>
+					<a href="#Hoteles"><img src="C:/Users/Franco/Desktop/ProyectoFinal/hoteles.jpeg"></a>
+			        <a href="#Restaurantes"><img src="C:/Users/Franco/Desktop/ProyectoFinal/restaurantes.jpeg"></a>
+			        <a href="#Bodegas"><img src="C:/Users/Franco/Desktop/ProyectoFinal/bodegas.jpeg"></a>
                 </nav>
             </div>
         </div>
 	</header>
-
-	<!--Secciones-->
 	<main>
-	
-	<div class="slider">
+
+		<div class="slider">
 			<ul>
 				<li><img src="C:/Users/Franco/Desktop/ProyectoFinal/1.jpg"></li>
 				<li><img src="C:/Users/Franco/Desktop/ProyectoFinal/2.jpg"></li>
 				<li><img src="C:/Users/Franco/Desktop/ProyectoFinal/3.jpg"></li>
 				<li><img src="C:/Users/Franco/Desktop/ProyectoFinal/4.jpg"></li>
 			</ul>
-        </div>
+		</div>
 		
-		
-		<div class="Todo">
+<div class="Todo">
 			<section id="mapa"><!--Google maps-->
 				<h1>Mapas</h1>
 			</section>
@@ -135,10 +145,9 @@
 			</section>
 		</div>
 
+		
 	</main>
-	<footer>
-		Derechos para lo pibe
-	</footer>
+	<footer></footer>
 
 
 </body>
