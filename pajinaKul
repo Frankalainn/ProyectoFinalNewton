@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<meta charset="utf-8">
-	<title>Turismo de la provincia de Mendoza</title>
+    <title>Turismo de la provincia de Mendoza</title>
+    <meta charset="utf-8">
+    <meta name="keywords" content="turismo, mendoza, vino, montañas">
+    <meta name="description" content="Vení a conocer Mendoza. La provincia dedicada al vino, con paisajes montañosos, una ciudad llena de árboles y con ACEQUIAS">
+    <meta name="author" content="Yerman, Gabi, Franco">
+    <meta name="copyright" content="Turismo de Mendoza">
+    <meta name="robots" content="index">
 	<link rel="stylesheet" type="text/css" href="">
 	<link rel="shortcut icon" href="C:/Users/Franco/Desktop/ProyectoFinal/BPM.png">
 	<style type="text/css">
