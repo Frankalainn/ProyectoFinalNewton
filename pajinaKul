@@ -109,23 +109,24 @@
 		<div class="Barra">
 			<div class="Barra1">
 		         <nav>
-		         	<a href="#Comidas"><img src="C:/Users/Franco/Desktop/ProyectoFinal/comidas.jpeg"></a>
-			        <a href="#Turismo"><img src="C:/Users/Franco/Desktop/ProyectoFinal/turismo.jpeg"></a>
-			        <a href="#Vendimia"><img src="C:/Users/Franco/Desktop/ProyectoFinal/vendimia.jpeg"></a>
+		         	<a href="#Comidas"><img src="C:/Users/Franco/Desktop/ProyectoFinal/comidas.png"></a>
+			        <a href="#Turismo"><img src="C:/Users/Franco/Desktop/ProyectoFinal/turismo.png"></a>
+			        <a href="#Vendimia"><img src="C:/Users/Franco/Desktop/ProyectoFinal/vendimia.png"></a>
 			     </nav>
 			</div>
-<img class="escudomedio" src="C:/Users/Franco/Desktop/ProyectoFinal/BPM.png">
+<img class="escudomedio" src="C:/Users/Franco/Desktop/ProyectoFinal/escudomedio.png">
 			<div class="Barra2">
 				<nav>
-					<a href="#Hoteles"><img src="C:/Users/Franco/Desktop/ProyectoFinal/hoteles.jpeg"></a>
-			        <a href="#Restaurantes"><img src="C:/Users/Franco/Desktop/ProyectoFinal/restaurantes.jpeg"></a>
-			        <a href="#Bodegas"><img src="C:/Users/Franco/Desktop/ProyectoFinal/bodegas.jpeg"></a>
+					<a href="#Hoteles"><img src="C:/Users/Franco/Desktop/ProyectoFinal/hoteles.png"></a>
+			        <a href="#Restaurantes"><img src="C:/Users/Franco/Desktop/ProyectoFinal/restaurantes.png"></a>
+			        <a href="#Bodegas"><img src="C:/Users/Franco/Desktop/ProyectoFinal/bodegas.png"></a>
                 </nav>
             </div>
         </div>
 	</header>
 	<main>
-
+       
+    <div class="cuadro">
 		<div class="slider">
 			<ul>
 				<li><img src="C:/Users/Franco/Desktop/ProyectoFinal/1.jpg"></li>
@@ -134,6 +135,7 @@
 				<li><img src="C:/Users/Franco/Desktop/ProyectoFinal/4.jpg"></li>
 			</ul>
 		</div>
+    </div>
 		
 <div class="Todo">
 			<section id="mapa"><!--Google maps-->
@@ -152,7 +154,9 @@
 
 		
 	</main>
-	<footer></footer>
+	<footer>
+    
+    </footer>
 
 
 </body>
